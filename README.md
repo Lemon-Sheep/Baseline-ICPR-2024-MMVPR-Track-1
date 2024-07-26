@@ -1,7 +1,8 @@
 ## This is the baseline model for the challenge on track 1: Multi-modal Tracking
 
 This track aims to address the technical challenges associated with tracking objects in multi-modal data. The dataset for this task includes 500 multi-modal videos, with 400 allocated for training and the remaining 100 for testing. The main challenges include effectively fusing RGB, Depth, and Infrared modalities, managing different data qualities across modalities, and ensuring precise object tracking under various conditions. We look forward to innovative solutions that enhance tracking accuracy and robustness. Additionally, we anticipate advancements that push the boundaries of current multi-modal tracking technologies to tackle increasingly complex real-world scenarios.
-![dyn-t1](https://github.com/user-attachments/assets/857eab82-b190-4591-b558-517f00c72a1c)
+![dyn-t1](https://github.com/user-attachments/assets/bf95735b-a16c-47ce-9f83-c55460f559ab)
+
 
 ## :bookmark_tabs:Installation
 * Install the conda environment
