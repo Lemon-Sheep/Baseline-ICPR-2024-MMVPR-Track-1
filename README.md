@@ -14,7 +14,7 @@ pip install **
 ```
 * Prepare the model
 ```
-Download the model [here](https://pan.baidu.com/s/1CnampD30EIwZ-jquEaj7pA) (Extract code: 1234), and put the model in the dir "root/pretrained/OSTrack_ep0300.pth.tar" and "root/pretrained/RDTTrack_ep0025.pth.tar".
+Download the model here: https://pan.baidu.com/s/1CnampD30EIwZ-jquEaj7pA (Extract code: 1234), and put the model in the dir "root/pretrained/OSTrack_ep0300.pth.tar" and "root/pretrained/RDTTrack_ep0025.pth.tar".
 ```
 * Prepare Datasets
 ```
