@@ -14,7 +14,7 @@ pip install **
 ```
 * Prepare the model
 ```
-Download the model [here](), and put the model in the dir "root/pretrained/OSTrack_ep0300.pth.tar" and "root/pretrained/RDTTrack_ep0025.pth.tar".
+Download the model [here](https://pan.baidu.com/s/1CnampD30EIwZ-jquEaj7pA) (Extract code: 1234), and put the model in the dir "root/pretrained/OSTrack_ep0300.pth.tar" and "root/pretrained/RDTTrack_ep0025.pth.tar".
 ```
 * Prepare Datasets
 ```
@@ -47,6 +47,6 @@ The final document submit to the website should be organized strictly according 
 <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Prediction.txt</p>
 
 ## :hearts: Acknowledgment
-This project is based on [VIPT]().
+This project is based on [VIPT](https://github.com/jiawen-zhu/ViPT ).
 Thanks for the excellent work.
 
