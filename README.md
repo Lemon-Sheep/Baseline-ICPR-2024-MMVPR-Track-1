@@ -7,27 +7,24 @@ This track aims to address the technical challenges associated with tracking obj
 ## :bookmark_tabs:Installation
 * Install the conda environment
 ```
-****
+conda create -n vipt python=3.8
+conda activate vipt
 ```
 * Install the required packages:
 ```
-pip install **
+bash install_vipt.sh
 ```
 * Prepare the model
 ```
-Download the model here: https://pan.baidu.com/s/1CnampD30EIwZ-jquEaj7pA (Extract code: 1234), and put the model in the dir "root/pretrained/OSTrack_ep0300.pth.tar" and "root/pretrained/RDTTrack_ep0025.pth.tar".
+Dowmload the pretrained foundation model (OSTrack) here: https://pan.baidu.com/s/1CnampD30EIwZ-jquEaj7pA (Extract code: 1234), and put it under ./pretrained/ such as "root/pretrained/OSTrack_ep0300.pth.tar" and "root/pretrained/RDTTrack_ep0025.pth.tar".
 ```
 * Prepare Datasets
 ```
 Download the datasets we proved (you can get through the website), and then unzip them to your_dataset_dir.
 ```
 
-## :car:Run
-For example，if you want to run method on our dataset, you need to modify the ***** to
-```
-****
-```
-Then, run the train_rdtt.sh file. And you will get a final result file, which will use to evaluate on the website.
+## :car:Train
+You can train models with various modalities and variants by modifying train_rdtt.sh, And you will get a final result file, which will use to evaluate on the website.
 
 ## :car:Evaluation
 If you want to test methods on our method, run the test_rgbdt.sh file. 
@@ -39,13 +36,13 @@ The final document submit to the website should be organized strictly according 
 
 <p>result.zip</p>
 <p>&nbsp&nbsp|--baseline</p>
-<p>&nbsp&nbsp&nbsp&nbsp&nbsp|--001</p>
-<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Prediction.txt</p>
-<p>&nbsp&nbsp&nbsp&nbsp&nbsp|--002</p>
-<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Prediction.txt</p>
-<p>&nbsp&nbsp&nbsp&nbsp&nbsp...</p>
-<p>&nbsp&nbsp&nbsp&nbsp&nbsp|--100</p>
-<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Prediction.txt</p>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--001</p>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Prediction.txt</p>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--002</p>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Prediction.txt</p>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp...</p>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--100</p>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Prediction.txt</p>
 
 ## :hearts: Acknowledgment
 This project is based on [VIPT](https://github.com/jiawen-zhu/ViPT ).
