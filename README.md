@@ -35,7 +35,7 @@ The final document submit to the website should be organized strictly according 
 =>for example, the  **result.zip**  is waht you need to submit：
 
 <p>--result.zip</p>
-<p>&nbsp&nbsp---baseline</p>
+<p>&nbsp&nbsp|--baseline</p>
 <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--001</p>
 <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Prediction.txt</p>
 <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--002</p>
