@@ -8,15 +8,15 @@ This track aims to address the technical challenges associated with tracking obj
 * Install the conda environment
 ```
 conda create -n vipt python=3.8
-conda activate vipt
+conda activate rdtt
 ```
 * Install the required packages:
 ```
-bash install_vipt.sh
+bash install_rdtt.sh
 ```
 * Prepare the model
 ```
-Dowmload the pretrained foundation model (OSTrack) here: https://pan.baidu.com/s/1CnampD30EIwZ-jquEaj7pA (Extract code: 1234), and put it under ./pretrained/ such as "root/pretrained/OSTrack_ep0300.pth.tar" and "root/pretrained/RDTTrack_ep0025.pth.tar".
+Dowmload the pretrained foundation model（OSTrack，RDTTrack） here: https://pan.baidu.com/s/1CnampD30EIwZ-jquEaj7pA (Extract code: 1234), and put it under ./pretrained/ such as "root/pretrained/OSTrack_ep0300.pth.tar" and "root/pretrained/RDTTrack_ep0025.pth.tar".
 ```
 * Prepare Datasets
 ```
