@@ -1,5 +1,10 @@
-## This is the baseline model for the challenge on track 1: Multi-modal Tracking
+## <img src="https://github.com/user-attachments/assets/4d9d5841-c29c-44bb-b63e-aca05927e114" alt="logo" width="100" /> Multi-Modal Visual Pattern Recognition Challenge-Track 1: Multi-Modal Tracking 
 
+
+This is the official repository for the Multi-modal Visual Pattern Recognition-Track2 Multi-modal Tracking (ICPR 2024).
+You can visit the challenge's official [website](https://prci-lab.github.io/mmvpr-workshop-icpr2024/) for more information, or you can directly participate in the competition on [codalab](https://codalab.lisn.upsaclay.fr/competitions/19861).
+
+## :bookmark_tabs:Overview
 This track aims to address the technical challenges associated with tracking objects in multi-modal data. The dataset for this task includes 500 multi-modal videos, with 400 allocated for training and the remaining 100 for testing. The main challenges include effectively fusing RGB, Depth, and Infrared modalities, managing different data qualities across modalities, and ensuring precise object tracking under various conditions. We look forward to innovative solutions that enhance tracking accuracy and robustness. Additionally, we anticipate advancements that push the boundaries of current multi-modal tracking technologies to tackle increasingly complex real-world scenarios.
 ![dyn-t1](https://github.com/user-attachments/assets/bf95735b-a16c-47ce-9f83-c55460f559ab)
 
