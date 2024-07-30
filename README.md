@@ -12,7 +12,7 @@ This track aims to address the technical challenges associated with tracking obj
 ## :bookmark_tabs:Installation
 * Install the conda environment
 ```
-conda create -n vipt python=3.8
+conda create -n rdtt python=3.8
 conda activate rdtt
 ```
 * Install the required packages:
