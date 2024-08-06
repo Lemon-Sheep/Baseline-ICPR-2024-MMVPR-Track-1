@@ -4,7 +4,7 @@
     <img src="https://github.com/user-attachments/assets/4d9d5841-c29c-44bb-b63e-aca05927e114" alt="logo" width="200">
 </div>
 
-This is the official repository for the Multi-modal Visual Pattern Recognition-Track1 Multi-modal Tracking (ICPR 2024).
+This is the official repository for the Multi-modal Visual Pattern Recognition-Track1: Multi-modal Tracking (ICPR 2024).
 You can visit the challenge's official [website](https://prci-lab.github.io/mmvpr-workshop-icpr2024/) for more information, or you can directly participate in the competition on [codalab](https://codalab.lisn.upsaclay.fr/competitions/19861).
 
 ## :bookmark_tabs:Overview
